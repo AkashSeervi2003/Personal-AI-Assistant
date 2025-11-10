@@ -19,7 +19,8 @@ Add your screenshots to the repository and update the paths below. Recommended f
 
 - PDF upload UI
   
-	![Upload PDFs](docs/screenshots/upload.png)
+	<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1373f36-611d-4732-b6ff-0505ad088fdf" />
+
 
 - Upload & Processing Status<img width="1781" height="750" alt="Screenshot 2025-11-10 045640" src="https://github.com/user-attachments/assets/1478a026-12db-42bb-8708-5b7d76b5f6ec" />
 
@@ -101,6 +102,7 @@ Add a license if you plan to share publicly (MIT is common). Create a `LICENSE` 
 
 
 If you want, I can also generate the screenshots section for you once you upload images to `Images/` or provide links.
+
 
 
 
