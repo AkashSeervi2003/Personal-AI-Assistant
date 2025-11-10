@@ -8,9 +8,8 @@ Add your screenshots to the repository and update the paths below. Recommended f
 
 - Login UI
   
-(<img width="1781" height="750" alt="Screenshot 2025-11-10 045640" src="https://github.com/user-attachments/assets/d205705e-3797-41e5-a6cc-1dd53693d32f" />
+<img width="1781" height="750" alt="Screenshot 2025-11-10 045640" src="https://github.com/user-attachments/assets/d205705e-3797-41e5-a6cc-1dd53693d32f" />
 
-)
 
 - Sign Up UI
   
@@ -100,6 +99,7 @@ Add a license if you plan to share publicly (MIT is common). Create a `LICENSE` 
 
 
 If you want, I can also generate the screenshots section for you once you upload images to `Images/` or provide links.
+
 
 
 
