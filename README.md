@@ -22,18 +22,15 @@ Add your screenshots to the repository and update the paths below. Recommended f
 	<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1373f36-611d-4732-b6ff-0505ad088fdf" />
 
 
-- Upload & Processing Status<img width="1781" height="750" alt="Screenshot 2025-11-10 045640" src="https://github.com/user-attachments/assets/1478a026-12db-42bb-8708-5b7d76b5f6ec" />
+- Upload & Processing Status
 
-  
-	![Upload & Processing](docs/screenshots/upload_processing.png)
+  <img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/470e2dc4-2ed0-447f-9fb1-b8d930059c1c" />
 
-- Conversation view (ask questions about your PDFs)
-  
-	![Chat view](docs/screenshots/chat.png)
 
-- Conversation view (detailed answer with citations)
-  
-	![Conversation Detail](docs/screenshots/conversation.png)
+- Conversation view
+
+  <img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/7b72fec3-9321-46da-93b3-6de319a6894e" />
+
 
 > Tip: Drag images into the GitHub web UI or commit them locally under `docs/screenshots/` with names like `login.png`, `signup.png`, `upload.png`, `chat.png`.
 
@@ -102,6 +99,7 @@ Add a license if you plan to share publicly (MIT is common). Create a `LICENSE` 
 
 
 If you want, I can also generate the screenshots section for you once you upload images to `Images/` or provide links.
+
 
 
 
