@@ -1,0 +1,19 @@
+streamlit==1.28.1
+# Pin LangChain packages to compatible versions
+langchain==0.2.11
+langchain-community==0.2.11
+langchain-google-genai==1.0.7
+langchain-text-splitters==0.2.2
+
+# Google GenAI SDK used under the hood
+google-generativeai==0.8.2
+
+# Embeddings / Vector store
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+scikit-learn==1.4.2
+
+# PDF processing and env
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+pyodbc==4.0.39
