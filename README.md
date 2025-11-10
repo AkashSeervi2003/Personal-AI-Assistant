@@ -6,9 +6,10 @@ Your documents, chat-ready. Upload PDFs and ask questions; the assistant retriev
 
 Add your screenshots to the repository and update the paths below. Recommended folder: `docs/screenshots/` (already created). Drop your PNGs there and adjust paths.
 
-- Login / Sign up UI
+- Login UI
   
-	![Login Page](<img width="1781" height="750" alt="Screenshot 2025-11-10 045640" src="https://github.com/user-attachments/assets/990c1832-bcec-4851-893b-cfc7ef279986" />
+	![Login Page](<img width="1781" height="750" alt="Screenshot 2025-11-10 045640" src="https://github.com/user-attachments/assets/d205705e-3797-41e5-a6cc-1dd53693d32f" />
+
 )
 
 - Sign Up UI
@@ -99,4 +100,5 @@ Add a license if you plan to share publicly (MIT is common). Create a `LICENSE` 
 
 
 If you want, I can also generate the screenshots section for you once you upload images to `Images/` or provide links.
+
 
