@@ -5,32 +5,31 @@ Your documents, chat-ready. Upload PDFs and ask questions; the assistant retriev
 ## Screenshots
 
 
-- Login UI
+1. Login UI
   
 <img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/25d4af36-b379-4d5d-a5fb-b29d45923a6f" />
 
 
 
-- Sign Up UI
+2. Sign Up UI
   
 <img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/0243f8b8-3e4f-4eae-9754-bb55bb2a432e" />
 
-- PDF upload UI
+3. PDF upload UI
   
 	<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1373f36-611d-4732-b6ff-0505ad088fdf" />
 
 
-- Upload & Processing Status
+4. Upload & Processing Status
 
   <img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/470e2dc4-2ed0-447f-9fb1-b8d930059c1c" />
 
 
-- Conversation view
+5. Conversation view
 
   <img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/7b72fec3-9321-46da-93b3-6de319a6894e" />
 
 
-> Tip: Drag images into the GitHub web UI or commit them locally under `docs/screenshots/` with names like `login.png`, `signup.png`, `upload.png`, `chat.png`.
 
 ## How it works
 
@@ -43,29 +42,7 @@ Your documents, chat-ready. Upload PDFs and ask questions; the assistant retriev
 5. The LLM (Gemini via Google Generative AI) generates an answer grounded in those chunks.
 6. Conversations are stored locally in a SQLite database for persistence.
 
-## Quick start (Windows / PowerShell)
 
-1. Python 3.10+ recommended. Create and activate a virtual environment:
-	 - `python -m venv .venv`
-	 - `& .\.venv\Scripts\Activate.ps1`
-
-2. Install dependencies:
-	 - `pip install -r requirements.txt`
-
-3. Add your API key (required for Gemini):
-	 - Create a `.env` file with a line: `GEMINI_API_KEY=your_key_here`
-
-4. Run the app:
-	 - `streamlit run app.py`
-
-The app opens in your browser (default http://localhost:8501). You can change the port with `--server.port 8514`.
-
-## Configuration
-
-- Set your model and defaults in `src/config.py`.
-- Environment variables: `.env` supports `GEMINI_API_KEY`.
-- Local data:
-	- SQLite file: `user_history.db` (ignored from Git by default).
 
 ## Project structure
 
@@ -83,20 +60,7 @@ scripts/
 	smoke_embed_test.py          # Minimal embedding sanity test
 ```
 
-## Troubleshooting
 
-- “Missing API key” or model errors: add `GEMINI_API_KEY` in `.env`.
-- Import errors for `sentence_transformers`/`langchain`: the app will fall back to TF‑IDF; for best results, install the full stack.
-- Streamlit duplicate element ID: we use unique keys for buttons and inputs; if you add new widgets, give them unique `key` arguments.
-
-## License
-
-Add a license if you plan to share publicly (MIT is common). Create a `LICENSE` file at the repo root.
-
----
-
-
-If you want, I can also generate the screenshots section for you once you upload images to `Images/` or provide links.
 
 
 
